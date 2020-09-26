@@ -1,0 +1,31 @@
+{
+  "name": "test-amplify",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --progress"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "@babel/core": "^7.11.1",
+    "babel-loader": "^8.1.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.11.2",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "extract-loader": "^5.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "fibers": "^4.0.0",
+    "file-loader": "^1.1.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^3.4.4",
+    "@aws-amplify/ui-components": "^0.6.3-unstable.17",
+    "aws-amplify": "^3.0.25-ui-preview.16"
+  }
+}
